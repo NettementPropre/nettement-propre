@@ -5,67 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nettement Propre</title>
     <style>
+        /* Styles généraux */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;
-            color: #FFD700; /* Yellow text */
+            background-color: #FFF;
+            color: #000;
+            line-height: 1.6;
         }
         header {
-            background-color: #FFD700; /* Yellow background */
-            color: #000; /* Black text */
+            background: linear-gradient(45deg, #FFD700 20%, #000 80%);
+            color: #FFF;
             text-align: center;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
+        }
+        header img {
+            width: 150px;
+            margin-bottom: 0.5rem;
         }
         header h1 {
             margin: 0;
+            font-size: 2rem;
+            font-weight: bold;
         }
         main {
             padding: 2rem;
             text-align: center;
         }
+
+        /* Section Services */
         .services {
-            margin: 2rem 0;
+            background-color: #F8F8F8;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
         }
+        .services h2 {
+            color: #FFD700;
+            margin-bottom: 1rem;
+        }
+        .services p {
+            color: #333;
+        }
+
+        /* Section Contact */
         .contact {
-            background-color: #333; /* Dark gray background */
-            color: #FFD700; /* Yellow text */
-            padding: 1rem;
-            border-radius: 5px;
+            background: linear-gradient(to right, #000, #FFD700);
+            color: #FFF;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem auto;
+            max-width: 800px;
         }
+        .contact h2 {
+            margin-bottom: 1rem;
+        }
+        .contact a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #FFD700; /* Yellow background */
-            color: #000; /* Black text */
-            margin-top: 2rem;
-        }
-        a {
-            color: #FFD700; /* Yellow links */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+            background-color: #000;
+            color: #FFD700;
         }
     </style>
 </head>
 <body>
+    <!-- En-tête -->
     <header>
+        <img src="logo.png" alt="Logo Nettement Propre">
         <h1>Nettement Propre</h1>
-        <p>Services de nettoyage professionnels pour immeubles, chalets locatifs et espaces commerciaux</p>
+        <p>Services d'entretien ménager professionnels</p>
     </header>
 
+    <!-- Contenu principal -->
     <main>
         <section class="services">
             <h2>Nos Services</h2>
             <p>
-                - Nettoyage des planchers et des tapis<br>
-                - Nettoyage des portes et fenêtres intérieures<br>
-                - Entretien des ascenseurs<br>
-                - Nettoyage des zones d'entrée et de sortie<br>
-                - Entretien ménager pour chalets locatifs<br>
-                - Services de nettoyage pour commerces et bureaux<br>
+                - Entretien des immeubles et bâtiments<br>
+                - Nettoyage des chalets locatifs<br>
+                - Nettoyage des commerces et bureaux<br>
+                - Entretien des zones communes<br>
+                - Nettoyage des tapis, portes et fenêtres intérieures<br>
             </p>
         </section>
 
@@ -76,6 +109,7 @@
         </section>
     </main>
 
+    <!-- Pied de page -->
     <footer>
         <p>&copy; 2024 Nettement Propre. Tous droits réservés.</p>
     </footer>
